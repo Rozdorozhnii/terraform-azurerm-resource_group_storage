@@ -8,10 +8,10 @@ To use this module, add the following to your Terraform configuration:
 
 ```hcl
 module "azure_resources" {
-  source                 = "github.com/Rozdorozhnii/terraform-azurerm-resource_group_storage"
+  source                 = "Rozdorozhnii/resource_group_storage/azurerm"
   resource_group_name    = "example-rg"
   location               = "East US"
-  storage_account_name   = "example-storacc"
+  storage_account_name   = "examplestoracc"
   version              = "1.0.0"
 }
 ```
